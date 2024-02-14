@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .bg{
+            background-color: #ffde9f;
+            background:  linear-gradient(to right, #E4FF8F, #F8FF8F);
+        }
+    </style>
+   
+<body class="bg">
+    <div class="container w-75 bg-primiry mt-5 rounded shadow">
+       
+        <div clas="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+            </div>
+            <div class="col  bg-orange p-5 rounded-end">
+                <div class="text-end">
+                    <!-- Imagen del logo-->
+                    <img src="logo.png" width="90" alt="">
+                </div>
+                <!-- Mensaje de bienvenido-->
+            <h2 class="fw-bold text-center py-5" >Bienvenido</h2>
+                <!-- Login-->
+                <form action="#">
+                    <!-- #capas iniciales, mb-4 = a magin booton 4-->
+                    <div class="mb-4">
+                        <!-- Base de nuestros inputs-->
+                        <label for="email" class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="pasword" class="form-label">Contraseña</label>
+                        <input type="pasword" class="form-control" name="pasword">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <!-- Checkbo x-->
+                        <input type="checkbox" name="connected" class="form-check-input" id="">
+                        <label for="connected" class="form-check-label" >Recordarme</label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    </div>
+                    <!-- #my-3 es margin en el eje y-->
+                    <div class="my-3">
+                        <span>¿No tienes cuenta?<a href="">Regístrate</a> </span><br>
+                        <span><a href="#">Recuperar contraseña</a></span>
+                    </div>
+                </form>
+                <!-- #Login con redes sociales-->
+                <div class="container w-100 my-5">
+                    <div class="row text-center" >
+                        <div class="col12">Iniciar sesión</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                               <div class="row align-items-center">
+                                <div class="col2 d-none  d-md-block" >
+                                    <img src="fb.png" width="30" alt="">
+                                    
+                                </div>
+                                <div class="col-15 col-md-20 text-center"> 
+                                    Facebook
+                                </div>
+                               </div>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-danger w-100 my-2">
+                               <div class="row align-items-center">
+                                <div class="col2 d-none d-md-block">
+                                    <img src="gmail.jpg" width="40" alt="">
+                                    
+                                </div>
+                                <div class="col-15 col-md-20 text-center"> 
+                                    Gmail
+                                </div>
+                               </div>
+                            </button>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
