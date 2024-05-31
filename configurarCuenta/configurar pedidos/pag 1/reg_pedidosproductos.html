@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configura tus pedidos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <a href="#">I swift</a>
+            </div>
+        </nav>
+    </header>
+    <body>
+    <form action="" class="formulario">
+        <p><h1 class="formulario_titulo">Configura tus pedidos</h1></p>
+        <h3 class="formulario_subtitulo">Informa a los repartidores como recoger los pedidos</h3>
+        <div>
+            <img src="imagen.png" style="float: right" WIDTH=300 HEIGHT=200>
+        <p>Selecciona:<br>
+
+            <div>
+                <p><input type="radio" id="Uso por defecto (Repartidores de I swift)" name="drone" value="Uso por defecto (Repartidores de I swift)" checked />
+                <label for="Uso por defecto (Repartidores de I swift)">Uso por defecto (Repartidores de I swift)</label>
+              </div></p>
+            
+              <div>
+                <p><input type="radio" id="Usar repartidores propios" name="drone" value="Usar repartidores propios" />
+                <label for="Usar repartidores propios">Usar repartidores propios</label>
+              </div></p>
+            
+              <div>
+                <p><input type="radio" id="Entrega personalizada" name="drone" value="Entrega personalizada" />
+                <label for="Entrega personalizada">Entrega personalizada</label>
+              </div></p>
+        </p>
+        </div>
+        <p><label for="message">Mensaje</label></p>
+        <textarea
+            id="message"
+            cols="50"
+            rows="5"
+            placeholder="Describa la forma de entrega"
+            required
+        ></textarea>
+        <p><input type="submit" value="Guardar" class="submit" /></p>
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
